@@ -1,0 +1,33 @@
+How did viewing a diff between two versions of a file help you see the bug that was introduced?
+
+It took some time for me to indentify the bug. This was becasue the I was not used to the display environment
+
+How could having easy access to the entire history of a file make you a more efficient programmer in the long term?
+
+It will help me track changes and identify the last update that introduced a bug to the code.
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit, while others, like Google Docs, treat each file separately?
+
+This is because git is a version control for coding and it understands that there may be multiple files that are related and the changes need to be ttacked in all the files
+
+How can you use the commands git log and git diff to view the history of files?
+
+git log shows a list of all the commits (changes) that were done to the code with a brief explantion of the change that was done 
+git diff compares two commits and gives a detailed descriptions of the lines of code that was changed. + means lines of codes that were added from the previous commit while - means lines of codes that were deleted from the previous commit
+
+How might using version control make you more confident to make changes that could break something?
+
+Using git log, I can revert troubleshoot to find out the commit where the bug was introduced and use git diff between the previous and current (broken) commit to find the line of code that created the bug.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+I would like to use it for my research codes
+
+Commands:
+ q |    exit git log!
+git log  |    List the commits and show which files have changed
+git log --stat  |    Show addition information about the commits
+git diff id1 id2  |    Compare two commits
+git clone  |    Create a local copy/clone from the repository
+git config --global color.ui auto |    get colored diff output
+git checkout  |    Shows a previous version of the file. This is not a checkout to edit like in SVN or TFS!
