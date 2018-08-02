@@ -1,3 +1,15 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-A repository is created with no commits. The repository is needed to be able to track commits made. git init initializes the repository.
+A repository is created with no commits. The repository is needed to be able to track commits made. 
+
+Commands:
+git init - initializes the repository.
+git log - shows commit history
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The working directory contains all the files while the saging area contains only the files from the working directory that will be committed. It creates an opportunity to verify the files to be committed.
+
+Commands: 
+git status -  shows commits, untracked files and files in the staging ares
+git add - adds files to be committed to the staging area
